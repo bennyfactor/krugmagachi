@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68CFE1B015EEB38B00CC99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1AF15EEB38B00CC99CC /* UIKit.framework */; };
+		68CFE1B215EEB38B00CC99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1B115EEB38B00CC99CC /* Foundation.framework */; };
+		68CFE1B415EEB38B00CC99CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1B315EEB38B00CC99CC /* CoreGraphics.framework */; };
+		68CFE1BA15EEB38B00CC99CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68CFE1B815EEB38B00CC99CC /* InfoPlist.strings */; };
+		68CFE1BC15EEB38B00CC99CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CFE1BB15EEB38B00CC99CC /* main.m */; };
+		68CFE1C015EEB38B00CC99CC /* krugAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CFE1BF15EEB38B00CC99CC /* krugAppDelegate.m */; };
+		68CFE1C315EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CFE1C115EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard */; };
+		68CFE1C615EEB38B00CC99CC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CFE1C415EEB38B00CC99CC /* MainStoryboard_iPad.storyboard */; };
+		68CFE1C915EEB38B00CC99CC /* krugMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CFE1C815EEB38B00CC99CC /* krugMasterViewController.m */; };
+		68CFE1CC15EEB38B00CC99CC /* krugDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CFE1CB15EEB38B00CC99CC /* krugDetailViewController.m */; };
+		68CFE1D415EEB38B00CC99CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1D315EEB38B00CC99CC /* SenTestingKit.framework */; };
+		68CFE1D515EEB38B00CC99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1AF15EEB38B00CC99CC /* UIKit.framework */; };
+		68CFE1D615EEB38B00CC99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1B115EEB38B00CC99CC /* Foundation.framework */; };
+		68CFE1DE15EEB38C00CC99CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68CFE1DC15EEB38C00CC99CC /* InfoPlist.strings */; };
+		68CFE1E115EEB38C00CC99CC /* krugmagachiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CFE1E015EEB38C00CC99CC /* krugmagachiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68CFE1D715EEB38B00CC99CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CFE1A215EEB38A00CC99CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CFE1AA15EEB38A00CC99CC;
+			remoteInfo = krugmagachi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68CFE1AB15EEB38B00CC99CC /* krugmagachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = krugmagachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CFE1AF15EEB38B00CC99CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68CFE1B115EEB38B00CC99CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68CFE1B315EEB38B00CC99CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68CFE1B715EEB38B00CC99CC /* krugmagachi-Info.plist */ = {isa = PBXFileReference; path = "krugmagachi-Info.plist"; sourceTree = "<group>"; };
+		68CFE1B915EEB38B00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68CFE1BB15EEB38B00CC99CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68CFE1BD15EEB38B00CC99CC /* krugmagachi-Prefix.pch */ = {isa = PBXFileReference; path = "krugmagachi-Prefix.pch"; sourceTree = "<group>"; };
+		68CFE1BE15EEB38B00CC99CC /* krugAppDelegate.h */ = {isa = PBXFileReference; path = krugAppDelegate.h; sourceTree = "<group>"; };
+		68CFE1BF15EEB38B00CC99CC /* krugAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugAppDelegate.m; sourceTree = "<group>"; };
+		68CFE1C215EEB38B00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		68CFE1C515EEB38B00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		68CFE1C715EEB38B00CC99CC /* krugMasterViewController.h */ = {isa = PBXFileReference; path = krugMasterViewController.h; sourceTree = "<group>"; };
+		68CFE1C815EEB38B00CC99CC /* krugMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugMasterViewController.m; sourceTree = "<group>"; };
+		68CFE1CA15EEB38B00CC99CC /* krugDetailViewController.h */ = {isa = PBXFileReference; path = krugDetailViewController.h; sourceTree = "<group>"; };
+		68CFE1CB15EEB38B00CC99CC /* krugDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugDetailViewController.m; sourceTree = "<group>"; };
+		68CFE1D215EEB38B00CC99CC /* krugmagachiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = krugmagachiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CFE1D315EEB38B00CC99CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		68CFE1DB15EEB38B00CC99CC /* krugmagachiTests-Info.plist */ = {isa = PBXFileReference; path = "krugmagachiTests-Info.plist"; sourceTree = "<group>"; };
+		68CFE1DD15EEB38C00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68CFE1DF15EEB38C00CC99CC /* krugmagachiTests.h */ = {isa = PBXFileReference; path = krugmagachiTests.h; sourceTree = "<group>"; };
+		68CFE1E015EEB38C00CC99CC /* krugmagachiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugmagachiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CFE1A815EEB38A00CC99CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CFE1B015EEB38B00CC99CC /* UIKit.framework in Frameworks */,
+				68CFE1B215EEB38B00CC99CC /* Foundation.framework in Frameworks */,
+				68CFE1B415EEB38B00CC99CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CFE1CE15EEB38B00CC99CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CFE1D415EEB38B00CC99CC /* SenTestingKit.framework in Frameworks */,
+				68CFE1D515EEB38B00CC99CC /* UIKit.framework in Frameworks */,
+				68CFE1D615EEB38B00CC99CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68CFE1A015EEB38A00CC99CC = {
+			isa = PBXGroup;
+			children = (
+				68CFE1B515EEB38B00CC99CC /* krugmagachi */,
+				68CFE1D915EEB38B00CC99CC /* krugmagachiTests */,
+				68CFE1AE15EEB38B00CC99CC /* Frameworks */,
+				68CFE1AC15EEB38B00CC99CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68CFE1AC15EEB38B00CC99CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CFE1AB15EEB38B00CC99CC /* krugmagachi.app */,
+				68CFE1D215EEB38B00CC99CC /* krugmagachiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68CFE1AE15EEB38B00CC99CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68CFE1AF15EEB38B00CC99CC /* UIKit.framework */,
+				68CFE1B115EEB38B00CC99CC /* Foundation.framework */,
+				68CFE1B315EEB38B00CC99CC /* CoreGraphics.framework */,
+				68CFE1D315EEB38B00CC99CC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68CFE1B515EEB38B00CC99CC /* krugmagachi */ = {
+			isa = PBXGroup;
+			children = (
+				68CFE1BE15EEB38B00CC99CC /* krugAppDelegate.h */,
+				68CFE1BF15EEB38B00CC99CC /* krugAppDelegate.m */,
+				68CFE1C115EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard */,
+				68CFE1C415EEB38B00CC99CC /* MainStoryboard_iPad.storyboard */,
+				68CFE1C715EEB38B00CC99CC /* krugMasterViewController.h */,
+				68CFE1C815EEB38B00CC99CC /* krugMasterViewController.m */,
+				68CFE1CA15EEB38B00CC99CC /* krugDetailViewController.h */,
+				68CFE1CB15EEB38B00CC99CC /* krugDetailViewController.m */,
+				68CFE1B615EEB38B00CC99CC /* Supporting Files */,
+			);
+			path = krugmagachi;
+			sourceTree = "<group>";
+		};
+		68CFE1B615EEB38B00CC99CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68CFE1B715EEB38B00CC99CC /* krugmagachi-Info.plist */,
+				68CFE1B815EEB38B00CC99CC /* InfoPlist.strings */,
+				68CFE1BB15EEB38B00CC99CC /* main.m */,
+				68CFE1BD15EEB38B00CC99CC /* krugmagachi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68CFE1D915EEB38B00CC99CC /* krugmagachiTests */ = {
+			isa = PBXGroup;
+			children = (
+				68CFE1DF15EEB38C00CC99CC /* krugmagachiTests.h */,
+				68CFE1E015EEB38C00CC99CC /* krugmagachiTests.m */,
+				68CFE1DA15EEB38B00CC99CC /* Supporting Files */,
+			);
+			path = krugmagachiTests;
+			sourceTree = "<group>";
+		};
+		68CFE1DA15EEB38B00CC99CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68CFE1DB15EEB38B00CC99CC /* krugmagachiTests-Info.plist */,
+				68CFE1DC15EEB38C00CC99CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68CFE1AA15EEB38A00CC99CC /* krugmagachi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CFE1E415EEB38C00CC99CC /* Build configuration list for PBXNativeTarget "krugmagachi" */;
+			buildPhases = (
+				68CFE1A715EEB38A00CC99CC /* Sources */,
+				68CFE1A815EEB38A00CC99CC /* Frameworks */,
+				68CFE1A915EEB38A00CC99CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = krugmagachi;
+			productName = krugmagachi;
+			productReference = 68CFE1AB15EEB38B00CC99CC /* krugmagachi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CFE1D115EEB38B00CC99CC /* krugmagachiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CFE1E715EEB38C00CC99CC /* Build configuration list for PBXNativeTarget "krugmagachiTests" */;
+			buildPhases = (
+				68CFE1CD15EEB38B00CC99CC /* Sources */,
+				68CFE1CE15EEB38B00CC99CC /* Frameworks */,
+				68CFE1CF15EEB38B00CC99CC /* Resources */,
+				68CFE1D015EEB38B00CC99CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68CFE1D815EEB38B00CC99CC /* PBXTargetDependency */,
+			);
+			name = krugmagachiTests;
+			productName = krugmagachiTests;
+			productReference = 68CFE1D215EEB38B00CC99CC /* krugmagachiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68CFE1A215EEB38A00CC99CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = krug;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 68CFE1A515EEB38A00CC99CC /* Build configuration list for PBXProject "krugmagachi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68CFE1A015EEB38A00CC99CC;
+			productRefGroup = 68CFE1AC15EEB38B00CC99CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CFE1AA15EEB38A00CC99CC /* krugmagachi */,
+				68CFE1D115EEB38B00CC99CC /* krugmagachiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68CFE1A915EEB38A00CC99CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CFE1BA15EEB38B00CC99CC /* InfoPlist.strings in Resources */,
+				68CFE1C315EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard in Resources */,
+				68CFE1C615EEB38B00CC99CC /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CFE1CF15EEB38B00CC99CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CFE1DE15EEB38C00CC99CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68CFE1D015EEB38B00CC99CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68CFE1A715EEB38A00CC99CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CFE1BC15EEB38B00CC99CC /* main.m in Sources */,
+				68CFE1C015EEB38B00CC99CC /* krugAppDelegate.m in Sources */,
+				68CFE1C915EEB38B00CC99CC /* krugMasterViewController.m in Sources */,
+				68CFE1CC15EEB38B00CC99CC /* krugDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CFE1CD15EEB38B00CC99CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CFE1E115EEB38C00CC99CC /* krugmagachiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68CFE1D815EEB38B00CC99CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68CFE1AA15EEB38A00CC99CC /* krugmagachi */;
+			targetProxy = 68CFE1D715EEB38B00CC99CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68CFE1B815EEB38B00CC99CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CFE1B915EEB38B00CC99CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68CFE1C115EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CFE1C215EEB38B00CC99CC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		68CFE1C415EEB38B00CC99CC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CFE1C515EEB38B00CC99CC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		68CFE1DC15EEB38C00CC99CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CFE1DD15EEB38C00CC99CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68CFE1E215EEB38C00CC99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68CFE1E315EEB38C00CC99CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68CFE1E515EEB38C00CC99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "krugmagachi/krugmagachi-Prefix.pch";
+				INFOPLIST_FILE = "krugmagachi/krugmagachi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68CFE1E615EEB38C00CC99CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "krugmagachi/krugmagachi-Prefix.pch";
+				INFOPLIST_FILE = "krugmagachi/krugmagachi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68CFE1E815EEB38C00CC99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/krugmagachi.app/krugmagachi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "krugmagachi/krugmagachi-Prefix.pch";
+				INFOPLIST_FILE = "krugmagachiTests/krugmagachiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		68CFE1E915EEB38C00CC99CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/krugmagachi.app/krugmagachi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "krugmagachi/krugmagachi-Prefix.pch";
+				INFOPLIST_FILE = "krugmagachiTests/krugmagachiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68CFE1A515EEB38A00CC99CC /* Build configuration list for PBXProject "krugmagachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CFE1E215EEB38C00CC99CC /* Debug */,
+				68CFE1E315EEB38C00CC99CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CFE1E415EEB38C00CC99CC /* Build configuration list for PBXNativeTarget "krugmagachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CFE1E515EEB38C00CC99CC /* Debug */,
+				68CFE1E615EEB38C00CC99CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68CFE1E715EEB38C00CC99CC /* Build configuration list for PBXNativeTarget "krugmagachiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CFE1E815EEB38C00CC99CC /* Debug */,
+				68CFE1E915EEB38C00CC99CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68CFE1A215EEB38A00CC99CC /* Project object */;
+}
