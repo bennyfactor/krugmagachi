@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684A162215EFD928008E2697 /* krugRSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A162115EFD928008E2697 /* krugRSSViewController.m */; };
+		684A162315EFD928008E2697 /* krugRSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A162115EFD928008E2697 /* krugRSSViewController.m */; };
+		684A162815EFDE08008E2697 /* KMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A162715EFDE08008E2697 /* KMXMLParser.m */; };
 		685BB1DC15EEDF6300C668B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BB1DB15EEDF6300C668B0 /* Default.png */; };
 		68CFE1B015EEB38B00CC99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1AF15EEB38B00CC99CC /* UIKit.framework */; };
 		68CFE1B215EEB38B00CC99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1B115EEB38B00CC99CC /* Foundation.framework */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		684A162015EFD928008E2697 /* krugRSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krugRSSViewController.h; sourceTree = "<group>"; };
+		684A162115EFD928008E2697 /* krugRSSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = krugRSSViewController.m; sourceTree = "<group>"; };
+		684A162615EFDE08008E2697 /* KMXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMXMLParser.h; path = ../KMXMLParser.h; sourceTree = "<group>"; };
+		684A162715EFDE08008E2697 /* KMXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMXMLParser.m; path = ../KMXMLParser.m; sourceTree = "<group>"; };
 		685BB1DB15EEDF6300C668B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		68CFE1AB15EEB38B00CC99CC /* krugmagachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = krugmagachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CFE1AF15EEB38B00CC99CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -119,9 +126,13 @@
 		68CFE1B515EEB38B00CC99CC /* krugmagachi */ = {
 			isa = PBXGroup;
 			children = (
+				684A162615EFDE08008E2697 /* KMXMLParser.h */,
+				684A162715EFDE08008E2697 /* KMXMLParser.m */,
 				68CFE1BE15EEB38B00CC99CC /* krugAppDelegate.h */,
 				68CFE1BF15EEB38B00CC99CC /* krugAppDelegate.m */,
 				68CFE1C115EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard */,
+				684A162015EFD928008E2697 /* krugRSSViewController.h */,
+				684A162115EFD928008E2697 /* krugRSSViewController.m */,
 				68CFE1C415EEB38B00CC99CC /* MainStoryboard_iPad.storyboard */,
 				68CFE1C715EEB38B00CC99CC /* krugMasterViewController.h */,
 				68CFE1C815EEB38B00CC99CC /* krugMasterViewController.m */,
@@ -275,6 +286,8 @@
 				68CFE1C015EEB38B00CC99CC /* krugAppDelegate.m in Sources */,
 				68CFE1C915EEB38B00CC99CC /* krugMasterViewController.m in Sources */,
 				68CFE1CC15EEB38B00CC99CC /* krugDetailViewController.m in Sources */,
+				684A162215EFD928008E2697 /* krugRSSViewController.m in Sources */,
+				684A162815EFDE08008E2697 /* KMXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CFE1E115EEB38C00CC99CC /* krugmagachiTests.m in Sources */,
+				684A162315EFD928008E2697 /* krugRSSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
