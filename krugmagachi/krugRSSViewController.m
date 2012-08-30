@@ -113,7 +113,7 @@
     
     cell.detailTextLabel.text = [[self.parseResults objectAtIndex:indexPath.row]  objectForKey:@"summary"];
     
-    
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     
     return cell;
     
