@@ -186,6 +186,7 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+
 {
     // Navigation logic may go here. Create and push another view controller.
     /*
@@ -194,6 +195,15 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+    
+    /*    WebViewController *vc = [[WebViewController alloc] init];
+     
+     vc.url = [NSURL URLWithString:[[self.parseResults objectAtIndex:indexPath.row]  objectForKey:@"link"] ];
+     
+     [self.navigationController pushViewController:vc animated:YES]; 
+     */
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[[self.parseResults objectAtIndex:indexPath.row]  objectForKey:@"link"] ]];
+
 }
 
 @end
