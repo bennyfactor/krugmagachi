@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685BB1DC15EEDF6300C668B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BB1DB15EEDF6300C668B0 /* Default.png */; };
 		68CFE1B015EEB38B00CC99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1AF15EEB38B00CC99CC /* UIKit.framework */; };
 		68CFE1B215EEB38B00CC99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1B115EEB38B00CC99CC /* Foundation.framework */; };
 		68CFE1B415EEB38B00CC99CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CFE1B315EEB38B00CC99CC /* CoreGraphics.framework */; };
@@ -35,27 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		685BB1DB15EEDF6300C668B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		68CFE1AB15EEB38B00CC99CC /* krugmagachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = krugmagachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CFE1AF15EEB38B00CC99CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68CFE1B115EEB38B00CC99CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68CFE1B315EEB38B00CC99CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		68CFE1B715EEB38B00CC99CC /* krugmagachi-Info.plist */ = {isa = PBXFileReference; path = "krugmagachi-Info.plist"; sourceTree = "<group>"; };
+		68CFE1B715EEB38B00CC99CC /* krugmagachi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "krugmagachi-Info.plist"; sourceTree = "<group>"; };
 		68CFE1B915EEB38B00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68CFE1BB15EEB38B00CC99CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68CFE1BD15EEB38B00CC99CC /* krugmagachi-Prefix.pch */ = {isa = PBXFileReference; path = "krugmagachi-Prefix.pch"; sourceTree = "<group>"; };
-		68CFE1BE15EEB38B00CC99CC /* krugAppDelegate.h */ = {isa = PBXFileReference; path = krugAppDelegate.h; sourceTree = "<group>"; };
+		68CFE1BD15EEB38B00CC99CC /* krugmagachi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "krugmagachi-Prefix.pch"; sourceTree = "<group>"; };
+		68CFE1BE15EEB38B00CC99CC /* krugAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krugAppDelegate.h; sourceTree = "<group>"; };
 		68CFE1BF15EEB38B00CC99CC /* krugAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugAppDelegate.m; sourceTree = "<group>"; };
 		68CFE1C215EEB38B00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		68CFE1C515EEB38B00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		68CFE1C715EEB38B00CC99CC /* krugMasterViewController.h */ = {isa = PBXFileReference; path = krugMasterViewController.h; sourceTree = "<group>"; };
+		68CFE1C715EEB38B00CC99CC /* krugMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krugMasterViewController.h; sourceTree = "<group>"; };
 		68CFE1C815EEB38B00CC99CC /* krugMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugMasterViewController.m; sourceTree = "<group>"; };
-		68CFE1CA15EEB38B00CC99CC /* krugDetailViewController.h */ = {isa = PBXFileReference; path = krugDetailViewController.h; sourceTree = "<group>"; };
+		68CFE1CA15EEB38B00CC99CC /* krugDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krugDetailViewController.h; sourceTree = "<group>"; };
 		68CFE1CB15EEB38B00CC99CC /* krugDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugDetailViewController.m; sourceTree = "<group>"; };
 		68CFE1D215EEB38B00CC99CC /* krugmagachiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = krugmagachiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CFE1D315EEB38B00CC99CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		68CFE1DB15EEB38B00CC99CC /* krugmagachiTests-Info.plist */ = {isa = PBXFileReference; path = "krugmagachiTests-Info.plist"; sourceTree = "<group>"; };
+		68CFE1DB15EEB38B00CC99CC /* krugmagachiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "krugmagachiTests-Info.plist"; sourceTree = "<group>"; };
 		68CFE1DD15EEB38C00CC99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		68CFE1DF15EEB38C00CC99CC /* krugmagachiTests.h */ = {isa = PBXFileReference; path = krugmagachiTests.h; sourceTree = "<group>"; };
+		68CFE1DF15EEB38C00CC99CC /* krugmagachiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krugmagachiTests.h; sourceTree = "<group>"; };
 		68CFE1E015EEB38C00CC99CC /* krugmagachiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krugmagachiTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		68CFE1A015EEB38A00CC99CC = {
 			isa = PBXGroup;
 			children = (
+				685BB1DB15EEDF6300C668B0 /* Default.png */,
 				68CFE1B515EEB38B00CC99CC /* krugmagachi */,
 				68CFE1D915EEB38B00CC99CC /* krugmagachiTests */,
 				68CFE1AE15EEB38B00CC99CC /* Frameworks */,
@@ -233,6 +236,7 @@
 				68CFE1BA15EEB38B00CC99CC /* InfoPlist.strings in Resources */,
 				68CFE1C315EEB38B00CC99CC /* MainStoryboard_iPhone.storyboard in Resources */,
 				68CFE1C615EEB38B00CC99CC /* MainStoryboard_iPad.storyboard in Resources */,
+				685BB1DC15EEDF6300C668B0 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +454,7 @@
 				68CFE1E615EEB38C00CC99CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CFE1E715EEB38C00CC99CC /* Build configuration list for PBXNativeTarget "krugmagachiTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +463,7 @@
 				68CFE1E915EEB38C00CC99CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
