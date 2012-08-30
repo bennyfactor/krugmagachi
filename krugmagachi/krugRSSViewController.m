@@ -43,14 +43,17 @@
     
     self.title = @"News";
     
-    KMXMLParser *parser = [[KMXMLParser alloc]  initWithURL:@"http://krugman.blogs.nytimes.com/feed" delegate:nil];
+    KMXMLParser *parser = [[KMXMLParser alloc]  initWithURL:@"http://krugman.blogs.nytimes.com/feed/" delegate:nil];
     
     _parseResults = [parser posts];
     
 
-    
+ 
+
     
 }
+
+
 
 - (void)viewDidUnload
 {
@@ -67,6 +70,57 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+
+{
+    
+    // Return the number of sections.
+    
+    return 1;
+    
+}
+
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+
+{
+    
+    // Return the number of rows in the section.
+    
+    return self.parseResults.count;
+    
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+{
+    
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    //Check if cell is nil. If it is create a new instance of it
+    
+    if (cell == nil) {
+        
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:CellIdentifier];
+        
+    }
+    
+    // Configure the cell...
+    
+    cell.textLabel.text = [[self.parseResults objectAtIndex:indexPath.row] objectForKey:@"title"];
+    
+    cell.detailTextLabel.text = [[self.parseResults objectAtIndex:indexPath.row]  objectForKey:@"summary"];
+    
+    
+    
+    return cell;
+    
+}
+
+
+/*- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
@@ -88,7 +142,7 @@
     // Configure the cell...
     
     return cell;
-}
+}*/
 
 /*
 // Override to support conditional editing of the table view.
