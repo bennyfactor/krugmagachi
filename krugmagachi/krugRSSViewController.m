@@ -202,8 +202,20 @@
      
      [self.navigationController pushViewController:vc animated:YES]; 
      */
+
+    //turn off check mark
+    UITableViewCell *newCell = [tableView cellForRowAtIndexPath:indexPath];
+    if (newCell.accessoryType == UITableViewCellAccessoryDetailDisclosureButton) {
+        newCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+
+    
+    //open URL in broswer
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[[self.parseResults objectAtIndex:indexPath.row]  objectForKey:@"link"] ]];
 
+
+
 }
+
 
 @end
