@@ -12,4 +12,5 @@
 
 @property (strong, nonatomic) NSMutableArray *parseResults;
 
+- (IBAction)markRead:(id)sender;
 @end

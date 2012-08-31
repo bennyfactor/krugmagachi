@@ -218,4 +218,8 @@
 }
 
 
+- (IBAction)markRead:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ALERT" message:@"Our control point is being captured" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+}
 @end
