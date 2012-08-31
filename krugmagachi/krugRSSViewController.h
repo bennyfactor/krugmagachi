@@ -10,6 +10,8 @@
 
 @interface krugRSSViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UINavigationItem *navtitle;
+
 @property (strong, nonatomic) NSMutableArray *parseResults;
 
 - (IBAction)markRead:(id)sender;

@@ -15,6 +15,7 @@
 
 @implementation krugRSSViewController
 
+@synthesize navtitle = _navtitle;
 @synthesize parseResults = _parseResults;
 
 
@@ -37,26 +38,26 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    [super viewDidLoad];
-    
+   
     //Sets the navigation bar title
     
-    self.title = @"News";
     
     KMXMLParser *parser = [[KMXMLParser alloc]  initWithURL:@"http://krugman.blogs.nytimes.com/feed/" delegate:nil];
     
     _parseResults = [parser posts];
     
-
- 
+    self.navtitle.title = @"News";
+    self.navtitle.rightBarButtonItem.title = @"Mark all read";
 
     
 }
 
 
 
+
 - (void)viewDidUnload
 {
+    [self setNavtitle:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -66,6 +67,10 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+#pragma mark - Nav button
+
+
 
 #pragma mark - Table view data source
 

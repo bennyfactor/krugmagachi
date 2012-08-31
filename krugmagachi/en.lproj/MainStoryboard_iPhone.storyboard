@@ -59,6 +59,9 @@
                             <outlet property="delegate" destination="VU6-AT-L3S" id="pfz-wh-s4c"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="navtitle" destination="oZG-1y-CqS" id="Ibk-Xj-POd"/>
+                    </connections>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="-1" y="669"/>
